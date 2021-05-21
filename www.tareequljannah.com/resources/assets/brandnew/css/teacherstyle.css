@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    color: white;
+    padding: 2px;
+}
+
+p {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+input[type="text"],[type="password"] {
+    display: block;
+    border: 1px solid #ddd;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 225px;
+}
+input[type="submit"],[type="button"] {
+    background: red;
+    border: 2px solid #ccddff;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 15px 30px;
+}
+input[type="submit"]:hover {
+    background: blue;
+    border: 2px solid black;
+    cursor: pointer;
+}
+input[type="button"]:hover {
+    background: blue;
+    border: 2px solid black;
+	cursor: pointer;
+}
+p {
+    align-content: flex-end;
+}
+fieldset {
+    border-color: royalblue;
+    margin-bottom: 17px;
+    padding-top: 20px;
+}
+legend {
+    font-size: 15px;
+}
+
+#wrapper {
+    background-color: rgba(4, 39, 68, 1);
+    float: left;
+    height: 305vh auto;
+    padding: 45px;
+    width: 415px;
+}
+#comprepair{
+    background: url('../images/TeacherLoginBG.jpg') no-repeat top fixed;
+    background-size: cover;
+}
+

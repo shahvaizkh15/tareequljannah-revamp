@@ -1,0 +1,53 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.tareequljannah.com/Teacher by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Apr 2021 10:59:25 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>MyTJ - Teacher's Login Page</title>
+    <meta content="width=device-width, maximum-scale=1, initial-scale=1" name="viewport">
+    <link href="resources/assets/brandnew/css/teacherstyle.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&amp;display=swap" rel="stylesheet">
+</head>
+<body id="comprepair">
+    <div  id="wrapper">
+        <h1>TareequlJannah Institute</h1>
+		<div>
+         	<form id="evalForm" method="post">
+				<fieldset>
+					<legend>Teacher Login Details:</legend>            
+					<label for="evalUsername">Login Name: </label>
+					<input type="text" id="evalUsername" name="loginName" placeholder="Enter your login name here" required>
+					<label for="evalPasswd">Password: </label>
+					<input type="password" id="evalPasswd" name="passwd" placeholder="Enter secret password here" required>
+				</fieldset>        
+				<fieldset>
+					<legend>Access Restricted</legend>
+					Please login here if you are a Teacher, all your actions are recorded in the TJ server.
+					<div id="teacherFeedback"></div>
+				</fieldset>
+				<input type="submit" id="loginnow" name="loginnow" value="Login Now" >
+             </form>
+		</div>
+		<div>
+			<form id="RedirectMe" action="https://www.tareequljannah.com/showTeacherProfile?isValid=true" method="POST" >
+				<input type="hidden" id="isEvaluator" name="isEvaluator" value="false">
+				<input type="hidden" id="sessID" name="sessID" value="">
+				<input type="hidden" id="sessName" name="sessName" value="">
+			</form>      
+         </div>
+    </div>
+    <script src="resources/assets/brandnew/scripts/teacherapp.js"></script>
+    <script
+	  src="../code.jquery.com/jquery-3.3.1.min.js"
+	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous">
+    </script>
+</body>
+
+<!-- Mirrored from www.tareequljannah.com/Teacher by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Apr 2021 10:59:25 GMT -->
+</html>

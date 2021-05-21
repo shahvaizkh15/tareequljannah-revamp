@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<!-- Mirrored from www.tareequljannah.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Apr 2021 10:59:30 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<style>
+body {
+   margin:0;
+   padding:0;
+   z-index:-2;
+   background:#fff;
+}
+#background{
+   margin:0;
+   padding:0;
+   position:absolute;
+   z-index: -1;
+   display: none;
+   top:0;
+   left:0;
+   width: 100%;
+   height: 200%;
+   /**scalable background to fill available viewport**/
+   /*background: url(/Images/YOUR_BG_IMAGE.jpg) center center fixed;*/
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+.jumbotron {
+   width: 100%;
+   margin: 5% auto;
+   border: 3px solid #ffffff;
+   background: rgba(255,255,255,0.6);
+   text-align:center;
+   color: #FFF;
+}
+</style>
+
+<script type="text/javascript" src="../code.jquery.com/jquery-1.11.1.min.js">
+</script>
+
+<script>
+//invoke background fadein on page load
+$(window).ready(function() {
+   $('#background').fadeIn(10, function() {
+   //wait 5 seconds and redirect to new URL
+   $(this).delay(10).fadeOut(10, function() { window.location = 'mytjhome.html'; });
+   });
+});
+</script>
+</head>
+
+<body>
+
+	<div class="container">
+	<div id="background" class="row">
+	<div class="jumbotron">
+	<h2>TareequlJannah Institute</h2>
+	<p>Welcome to TareequlJannah - Online Quran and Arabic Teaching Experts</p>
+	</div>
+	</div>
+	</div>
+
+</body>
+
+
+<!-- Mirrored from www.tareequljannah.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Apr 2021 10:59:30 GMT -->
+</html>
